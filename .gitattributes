@@ -1,0 +1,39 @@
+# === Normaliza quebras de linha para LF em todos os arquivos de texto ===
+* text=auto eol=lf
+
+# === Arquivos específicos ===
+*.js     text eol=lf
+*.ts     text eol=lf
+*.jsx    text eol=lf
+*.tsx    text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.sh     text eol=lf
+*.py     text eol=lf
+*.php    text eol=lf
+
+# === Arquivos binários — não tenta mudar linha ===
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.mp4    binary
+*.mov    binary
+*.zip    binary
+*.exe    binary
+*.dll    binary
+
+# === Evita problemas com arquivos do GitHub Actions ===
+*.workflow text eol=lf
+
+# === Evita problemas com arquivos de configuração ===
+*.env    text eol=lf
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
