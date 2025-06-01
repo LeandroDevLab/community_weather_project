@@ -66,17 +66,26 @@ community-weather-project/
 ## 🤝 Como Contribuir
 Adoraríamos sua ajuda! Se você tiver ideias, encontrar bugs ou quiser melhorar o código, por favor:
 
-1. Faça um Fork deste repositório.
+1- Faça um Fork deste repositório.
 
-2. Crie uma Branch para sua feature (git checkout -b feature/minha-nova-funcionalidade).
+2- Crie uma Branch(Ramificação do projeto) para sua feature 
+```
+git checkout -b feature/nome-da-sua-branch
+```
 
-3. Faça suas alterações.
+3- Faça suas alterações.
 
-4. Commit suas alterações (git commit -m 'feat: adicionei nova funcionalidade X').
+4- Commit suas alterações 
+```
+git commit -m 'feat: adicionei nova funcionalidade X'
+```
 
-5. Envie para a Branch (git push origin feature/minha-nova-funcionalidade).
+5- Envie para a Branch 
+```
+git push origin feature/minha-nova-funcionalidade
+```
 
-6. Abra um Pull Request.
+6- Abra um Pull Request.
 
 Por favor, certifique-se de seguir as diretrizes de código e estilo (se houver) e adicionar comentários onde for necessário.
 
