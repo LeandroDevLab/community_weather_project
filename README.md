@@ -70,7 +70,11 @@ Adoraríamos sua ajuda! Se você tiver ideias, encontrar bugs ou quiser melhorar
 
 #### 2- Crie uma Branch(Ramificação do projeto) para sua feature 
 ```
-git checkout -b feature/nome-da-sua-branch
+git switch -c tipo/seunome-funcionalidade
+```
+<b>OU</b> (faz a mesma coisa, mas o de cima é mais moderno)
+```
+git checkout -b tipo/seunome-funcionalidade
 ```
 <div style="border:1px solid #ff0000">
 <details>
@@ -101,9 +105,15 @@ git checkout -b feature/nome-da-sua-branch
 ## 🎯 Exemplos aplicados:
 
 ### 🔥 Para funcionalidades:
+```
+git switch -c feature/leandro-readme
+```
+ou
+```
 git checkout -b feature/pedro-login-page
 git checkout -b feature/maria-cadastro-usuario
 git checkout -b feature/joao-dashboard
+```
 
 shell
 Copy
