@@ -66,26 +66,112 @@ community-weather-project/
 ## 🤝 Como Contribuir
 Adoraríamos sua ajuda! Se você tiver ideias, encontrar bugs ou quiser melhorar o código, por favor:
 
-1- Faça um Fork deste repositório.
+#### 1- Faça um Fork deste repositório.
 
-2- Crie uma Branch(Ramificação do projeto) para sua feature 
+#### 2- Crie uma Branch(Ramificação do projeto) para sua feature 
 ```
 git checkout -b feature/nome-da-sua-branch
 ```
+<div style="border:1px solid #ff0000">
+<details>
+<summary>📚 <span style="color:red">[IMPORTANTE]</span> Padrão de Nomeação de Branches para o Projeto</summary>
 
-3- Faça suas alterações.
+## ✅ Padrão profissional para nomear branches em equipes:
+### Onde:
+- **`tipo`** = O tipo da branch (qual a função dela)
+- **`nome-pessoa`** = Quem está trabalhando nela (opcional, mas muito útil em times)
+- **`descrição`** = Descreve o que essa branch faz
 
-4- Commit suas alterações 
+---
+
+## 🔥 Tipos mais comuns de branch:
+
+| 🔧 **Tipo** | 📝 **Uso**                                |
+|--------------|-------------------------------------------|
+| **feature/** | Nova funcionalidade                      |
+| **fix/**     | Correção de bug                          |
+| **hotfix/**  | Correção urgente (em produção)           |
+| **chore/**   | Tarefa de manutenção (ex.: dependências) |
+| **refactor/**| Melhorias no código (sem mudar função)   |
+| **docs/**    | Documentação (README, Wiki, etc.)        |
+| **test/**    | Testes                                   |
+
+---
+
+## 🎯 Exemplos aplicados:
+
+### 🔥 Para funcionalidades:
+git checkout -b feature/pedro-login-page
+git checkout -b feature/maria-cadastro-usuario
+git checkout -b feature/joao-dashboard
+
+shell
+Copy
+Edit
+
+### 🐛 Para bugs:
+git checkout -b fix/pedro-botao-nao-funciona
+
+shell
+Copy
+Edit
+
+### 🚑 Hotfix urgente:
+git checkout -b hotfix/pedro-corrige-erro-login
+
+shell
+Copy
+Edit
+
+### 📜 Documentação:
+git checkout -b docs/maria-atualiza-readme
+
+yaml
+Copy
+Edit
+
+---
+
+## 🏗️ Fluxo básico recomendado:
+
+1. Cria a branch:
+git checkout -b feature/seu-nome-descricao
+
+markdown
+Copy
+Edit
+
+2. Faz o desenvolvimento.
+
+3. Dá push:
+git push origin feature/seu-nome-descricao
+
+markdown
+Copy
+Edit
+
+4. Abre um **Pull Request (PR)** para a `main`.
+
+5. O PR é revisado e aprovado.
+
+6. Faz merge na `main`.
+
+</details>
+</div>
+
+#### 3- Faça suas alterações.
+
+#### 4- Commit suas alterações 
 ```
 git commit -m 'feat: adicionei nova funcionalidade X'
 ```
 
-5- Envie para a Branch 
+#### 5- Envie para a Branch 
 ```
 git push origin feature/minha-nova-funcionalidade
 ```
 
-6- Abra um Pull Request.
+#### 6- Abra um Pull Request.
 
 Por favor, certifique-se de seguir as diretrizes de código e estilo (se houver) e adicionar comentários onde for necessário.
 
