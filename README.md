@@ -76,8 +76,8 @@ git switch -c tipo/seunome-funcionalidade
 ```
 git checkout -b tipo/seunome-funcionalidade
 ```
-<div style="border:1px solid #ff0000">
-<details>
+
+<details style="border:1px solid #ff0000">
 <summary>📚 <span style="color:red">[IMPORTANTE]</span> Padrão de Nomeação de Branches para o Projeto</summary>
 
 ## ✅ Padrão profissional para nomear branches em equipes:
@@ -167,7 +167,6 @@ Edit
 6. Faz merge na `main`.
 
 </details>
-</div>
 
 #### 3- Faça suas alterações.
 
@@ -184,6 +183,58 @@ git push origin feature/minha-nova-funcionalidade
 #### 6- Abra um Pull Request.
 
 Por favor, certifique-se de seguir as diretrizes de código e estilo (se houver) e adicionar comentários onde for necessário.
+
+## 🔎Dicas e comandos Git GitHub
+<details style="border:1px solid #ff0000">
+<summary>Comandos Git GitHub</summary>
+## 🚀 Principais Comandos Git e GitHub
+
+### 🔧 Git - Linha de Comando
+
+| Comando                                          | Descrição                                              |
+|--------------------------------------------------|--------------------------------------------------------|
+| `git init`                                       | Inicializa um novo repositório Git local               |
+| `git clone URL`                                  | Clona um repositório remoto para sua máquina           |
+| `git status`                                     | Mostra o status dos arquivos (modificados, staged)     |
+| `git add nome-do-arquivo`                        | Adiciona arquivo específico para staging (preparo)     |
+| `git add .`                                      | Adiciona **todos os arquivos modificados**            |
+| `git commit -m "mensagem"`                       | Cria um commit com uma mensagem descritiva            |
+| `git push origin nome-da-branch`                 | Envia (push) os commits locais para o GitHub           |
+| `git pull origin nome-da-branch`                 | Atualiza seu repositório local com o remoto (fetch + merge) |
+| `git branch`                                     | Lista todas as branches locais                        |
+| `git branch nome-da-branch`                      | Cria uma nova branch                                  |
+| `git checkout nome-da-branch`                    | Troca para uma branch existente                       |
+| `git checkout -b nome-da-branch`                 | Cria e troca para uma nova branch                     |
+| `git switch nome-da-branch`                      | ✅ (Moderno) Troca para uma branch existente           |
+| `git switch -c nome-da-branch`                   | ✅ (Moderno) Cria e troca para uma nova branch         |
+| `git merge nome-da-branch`                       | Faz merge da branch informada na branch atual         |
+| `git log`                                        | Exibe o histórico dos commits                         |
+| `git remote -v`                                  | Mostra os repositórios remotos conectados             |
+| `git fetch`                                      | Busca atualizações do remoto, mas **não faz merge**   |
+| `git reset --hard HEAD`                          | ⚠️ Descarta todas as alterações não commitadas        |
+| `git stash`                                      | Salva alterações temporariamente (sem commitar)       |
+| `git stash pop`                                  | Recupera alterações salvas no stash                   |
+| `git pull --rebase`                              | Atualiza seu branch local sem criar commit de merge extra |
+| `git push --set-upstream origin nome-da-branch`  | Faz push de uma branch nova e a conecta ao remoto     |
+
+---
+
+### 🌐 GitHub - Interface Web
+
+| Ação no GitHub             | Descrição                                              |
+|----------------------------|--------------------------------------------------------|
+| **Fork**                   | Cria uma cópia do repositório na sua conta GitHub     |
+| **Pull Request (PR)**      | Solicita que suas alterações sejam revisadas e mescladas |
+| **Merge Pull Request**     | Aprova e integra as alterações da branch no repositório |
+| **Review Changes**         | Avalia um PR: aprova, comenta ou solicita mudanças    |
+| **Settings > Branches**    | Configura regras de proteção das branches             |
+| **Invite Collaborator**    | Adiciona colaboradores no repositório                 |
+| **Compare & Pull Request** | Cria um PR a partir de uma branch para outra          |
+
+---
+
+✅ **Dica:** Use sempre `git status` e `git log` para acompanhar o que está acontecendo no seu repositório!
+</details>
 
 ## 📝 Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
