@@ -7,6 +7,7 @@
 
 body {
     background-color: #ffe4c4;
+    z-index: -1;
 }
 
 main {
@@ -45,4 +46,17 @@ main h1{
 
 .tempo img:hover {
     transform: scale3d(1.2, 1.2, 1);
+}
+
+.frio-bg {
+    background: url(../img/frio.png);
+}
+.sol-bg {
+    background: url(../img/sol.png);
+}
+.nublado-bg {
+    background: url(../img/nublado.png);
+}
+.chuva-bg {
+    background: url(../img/chuva.png);
 }
